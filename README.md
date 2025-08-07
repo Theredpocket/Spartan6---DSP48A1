@@ -44,8 +44,8 @@ This implementation showcases how the DSP48A1 can be integrated into custom FPGA
 
 ## DSP48A1 Slice:
 
-![Simulation Output](/Simulation%20Waveform.jpg)
-![Device Utilization](/Device%20Utilization.jpg)
+![DSP48A1 Slice](/DSP48A1%20Slice.jpg)
+![DSP48A1 Design](/DSP48A1%20Design.jpg)
 
 ---
 
