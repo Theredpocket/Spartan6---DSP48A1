@@ -44,10 +44,7 @@ This implementation showcases how the DSP48A1 can be integrated into custom FPGA
 
 ## DSP48A1 Slice:
 
-<p align="center">
-  <img src="/DSP48A1%20Slice.jpg" width="45%" alt="DSP48A1 Slice"/>
-  <img src="/DSP48A1%20Design.jpg" width="45%" alt="DSP48A1 Design"/>
-</p>
+![DSP48A1 Design](/DSP48A1%20Design.jpg)
 
 ---
 
