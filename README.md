@@ -1,4 +1,4 @@
-# Spartan6---DSP48A1
+# Spartan6-DSP48A1
 
 This project demonstrates the usage and configuration of the **DSP48A1 slice** in a Xilinx **Spartan-6 FPGA**. The DSP48A1 is a flexible and high-performance digital signal processing block, commonly used for implementing multipliers, MAC operations, and arithmetic-intensive logic in FPGA designs.
 
