@@ -1,6 +1,6 @@
 # Spartan6---DSP48A1
 
-# ⚙️ Spartan-6 DSP48A1 Project
+# Spartan-6 DSP48A1 Project
 
 This project demonstrates the usage and configuration of the **DSP48A1 slice** in a Xilinx **Spartan-6 FPGA**. The DSP48A1 is a flexible and high-performance digital signal processing block, commonly used for implementing multipliers, MAC operations, and arithmetic-intensive logic in FPGA designs.
 
@@ -23,10 +23,10 @@ This implementation showcases how the DSP48A1 can be integrated into custom FPGA
 - **MAC Operations**  
   Supports multiply-accumulate operations with optional pipeline stages for improved throughput.
 
-- **Pipelining for High Throughput**
+- **Pipelining for High Throughput**  
   Implements pipelining techniques to optimize data processing speed.
 
-- **Parallel DSP Block Chaining**
+- **Parallel DSP Block Chaining**  
   Supports direct and cascade inputs (BCIN, PCIN).
 
 - **Optimized Resource Usage**  
@@ -44,18 +44,14 @@ This implementation showcases how the DSP48A1 can be integrated into custom FPGA
   
 ---
 
+## DSP48A1 Slice:
+
+![Simulation Output](/Simulation%20Waveform.jpg)
+![Device Utilization](/Device%20Utilization.jpg)
+
+---
+
 ## RTL Schematic:
 
 ![RTL Schematic](/RTL%20Schematic.jpg)
 
----
-
-## 🧪 Simulation Output:
-
-![Simulation Output](/Simulation%20Waveform.jpg)
-
----
-
-## 📊 Device Utilization:
-
-![Device Utilization](/Device%20Utilization.jpg)
