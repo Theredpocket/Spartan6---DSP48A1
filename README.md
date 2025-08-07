@@ -8,14 +8,11 @@ This project demonstrates the usage and configuration of the **DSP48A1 slice** i
 
 ## 📌 Description
 
-The **DSP48A1** slice in Spartan-6 provides a powerful and configurable arithmetic unit that includes:
+The **DSP48A1 slice** is a dedicated arithmetic unit in the Spartan-6 FPGA family designed to accelerate digital signal processing tasks. It supports high-speed multiplication, accumulation, and optional pre-addition, making it ideal for implementing filters, multipliers, and other arithmetic-heavy functions.
 
-- **18x18 signed multiplier**
-- **48-bit accumulator**
-- **Optional pre-adder for symmetric FIR filters**
-- **Pattern detection and wide logic capabilities**
+In this project, the DSP48A1 block is configured using Verilog to demonstrate its capabilities in performing fast, resource-efficient operations. By using the built-in DSP slice instead of general logic, the design achieves better performance, reduced resource usage, and a cleaner hardware architecture.
 
-It is optimized for high-speed DSP applications and significantly reduces logic resource usage compared to building arithmetic functions from LUTs and flip-flops.
+This implementation showcases how the DSP48A1 can be integrated into custom FPGA designs to enhance processing speed and efficiency in real-time applications.
 
 
 ## 🚀 Features
@@ -26,13 +23,14 @@ It is optimized for high-speed DSP applications and significantly reduces logic 
 - **MAC Operations**  
   Supports multiply-accumulate operations with optional pipeline stages for improved throughput.
 
-- **Pipelining for High Throughput**: Implements pipelining techniques to optimize data processing speed.
+- **Pipelining for High Throughput**
+  Implements pipelining techniques to optimize data processing speed.
 
 - **Parallel DSP Block Chaining**
+  Supports direct and cascade inputs (BCIN, PCIN).
 
 - **Optimized Resource Usage**  
   Offloads arithmetic logic from general-purpose fabric, reducing LUT and flip-flop usage.
-
 
 ---
 
@@ -49,3 +47,15 @@ It is optimized for high-speed DSP applications and significantly reduces logic 
 ## RTL Schematic:
 
 ![RTL Schematic](/RTL%20Schematic.jpg)
+
+---
+
+## 🧪 Simulation Output:
+
+![Simulation Output](/Simulation%20Waveform.jpg)
+
+---
+
+## 📊 Device Utilization:
+
+![Device Utilization](/Device%20Utilization.jpg)
