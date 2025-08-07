@@ -17,41 +17,34 @@ The **DSP48A1** slice in Spartan-6 provides a powerful and configurable arithmet
 
 It is optimized for high-speed DSP applications and significantly reduces logic resource usage compared to building arithmetic functions from LUTs and flip-flops.
 
-### 📐 Key Specifications:
-
-| Feature                    | Value                         |
-|---------------------------|-------------------------------|
-| Multiplier Width          | 18 x 18 signed                |
-| Accumulator Width         | 48 bits                       |
-| Clock Frequency           | Up to 380 MHz (speed grade dependent) |
-| Pipeline Stages           | Optional (0–3 stages)         |
-| Dedicated Pre-adder       | Yes                           |
-| SIMD Mode Support         | No (only in newer families)   |
-
----
 
 ## 🚀 Features
 
-- Efficient **MAC (Multiply-Accumulate)** operation
-- **Parametric Verilog wrapper** for reusability
-- Example applications in:
-  - Finite Impulse Response (FIR) filters
-  - Fast multipliers
-  - Custom arithmetic pipelines
-- Support for **signed and unsigned operations**
-- Optimized for Spartan-6 timing and resource constraints
+- **High-Speed Arithmetic**  
+  Performs 18x18 signed multiplications and 48-bit accumulations using dedicated DSP logic.
+
+- **MAC Operations**  
+  Supports multiply-accumulate operations with optional pipeline stages for improved throughput.
+
+- **Pipelining for High Throughput**: Implements pipelining techniques to optimize data processing speed.
+
+- **Optimized Resource Usage**  
+  Offloads arithmetic logic from general-purpose fabric, reducing LUT and flip-flop usage.
+
+- **Pre-Adder Support**  
+  Built-in pre-adder enables efficient symmetric FIR filter implementation.
+
 
 ---
 
 ## 🛠 Tools Used
 
-| Tool           | Version        | Purpose                      |
-|----------------|----------------|------------------------------|
-| Xilinx ISE      | 14.x           | Synthesis, Implementation    |
-| ModelSim        | 10.x / PE      | Functional Simulation        |
-| GTKWave         | Latest         | Waveform Viewing             |
-| Verilog HDL     | IEEE-1364      | Design Language              |
-
+- **FPGA**: Xilinx Spartan-6
+- **DSP Slice**: DSP48A1
+- **Language**: Verilog HDL
+- **Simulation Tool**: Questasim / ModelSim
+- **Synthesis Tool**: Xilinx ISE 14.x
+  
 ---
 
 ## 🖼️ Screenshot: RTL Schematic
