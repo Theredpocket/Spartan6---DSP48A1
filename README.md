@@ -28,11 +28,10 @@ It is optimized for high-speed DSP applications and significantly reduces logic 
 
 - **Pipelining for High Throughput**: Implements pipelining techniques to optimize data processing speed.
 
+- **Parallel DSP Block Chaining**
+
 - **Optimized Resource Usage**  
   Offloads arithmetic logic from general-purpose fabric, reducing LUT and flip-flop usage.
-
-- **Pre-Adder Support**  
-  Built-in pre-adder enables efficient symmetric FIR filter implementation.
 
 
 ---
@@ -43,10 +42,10 @@ It is optimized for high-speed DSP applications and significantly reduces logic 
 - **DSP Slice**: DSP48A1
 - **Language**: Verilog HDL
 - **Simulation Tool**: Questasim / ModelSim
-- **Synthesis Tool**: Xilinx ISE 14.x
+- **Synthesis Tool**: Vivado
   
 ---
 
-## 🖼️ Screenshot: RTL Schematic
+## RTL Schematic:
 
 ![RTL Schematic](/RTL%20Schematic.jpg)
