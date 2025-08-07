@@ -59,4 +59,4 @@ It is optimized for high-speed DSP applications and significantly reduces logic 
 > Insert an image showing the RTL schematic of the DSP48A1 module.
 
 ```markdown
-![RTL Schematic](RTL Schematic.jpg)
+![RTL Schematic](/RTL Schematic.jpg)
